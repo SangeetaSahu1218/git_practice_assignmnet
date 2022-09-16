@@ -1,6 +1,7 @@
 //check prime num.. 
-
+let num=0;
 let count = 0;
+
     for( let i=1;i<=num;i++){
         if(num%i==0){
             count++;
@@ -14,15 +15,17 @@ let count = 0;
    
 //check palindrom..
 
-let str="sangeeta";
-let N=
 
-let a;
-    let b;
-    for(let i=0; i<=N-1; i++){
+let str="sangeeta";
+
+
+    let a=0;
+    let b=0;
+
+    for(let i=0; i<=str.length-1; i++){
         a=str[i];
     }
-    for(let i=N-1; i>=0; i--){
+    for(let i=str.length-1; i>=0; i--){
         b=str[i];
     }
     if(a==b){
