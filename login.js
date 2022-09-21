@@ -1,7 +1,7 @@
 //check prime num.. 
+
 let num=0;
 let count = 0;
-
     for( let i=1;i<=num;i++){
         if(num%i==0){
             count++;
@@ -17,7 +17,6 @@ let count = 0;
 
 
 let str="sangeeta";
-
 
     let a=0;
     let b=0;
